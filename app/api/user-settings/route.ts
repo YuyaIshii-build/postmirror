@@ -1,18 +1,22 @@
+//app/api/user-settings/route.ts
+
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
-import { getToken } from 'next-auth/jwt'; // next-authのJWTトークンを取得
+import { getToken } from 'next-auth/jwt';
 
 // GET: ユーザー設定の取得
 export async function GET(req: NextRequest) {
   try {
-    // JWTトークンを取得
     const token = await getToken({ req, secret: process.env.NEXTAUTH_SECRET });
 
     if (!token) {
       return NextResponse.json({ error: '認証されていないユーザーです' }, { status: 401 });
     }
 
-    const userId = token.sub; // ユーザーIDはJWTトークンのsubに含まれている
+    const userId = token.sub;
+    if (!userId) {
+      return NextResponse.json({ error: 'ユーザーIDが取得できませんでした' }, { status: 400 });
+    }
 
     const setting = await prisma.userSetting.findUnique({
       where: { userId },
@@ -33,7 +37,6 @@ export async function GET(req: NextRequest) {
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-
     const {
       activityType,
       activityDetail,
@@ -42,16 +45,17 @@ export async function POST(req: NextRequest) {
       preferredTone,
     } = body;
 
-    // JWTトークンを取得
     const token = await getToken({ req, secret: process.env.NEXTAUTH_SECRET });
 
     if (!token) {
       return NextResponse.json({ error: '認証されていないユーザーです' }, { status: 401 });
     }
 
-    const userId = token.sub; // ユーザーIDはJWTトークンのsubに含まれている
+    const userId = token.sub;
+    if (!userId) {
+      return NextResponse.json({ error: 'ユーザーIDが取得できませんでした' }, { status: 400 });
+    }
 
-    // 必須項目チェック（必要に応じて）
     if (!activityType || !goal) {
       return NextResponse.json({ error: '必須フィールドが不足しています' }, { status: 400 });
     }
