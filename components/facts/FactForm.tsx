@@ -1,33 +1,27 @@
 "use client";
 import { useState } from "react";
 import { availableTags } from "@/components/constants/tags";
-import { useSession } from "next-auth/react";
 
 type FactFormProps = {
-  onSubmitSuccess: () => void; // 投稿成功時に親コンポーネントへ通知するコールバック
+  userId: string; // 追加されたプロパティ
+  onSubmitSuccess: () => void;
 };
 
-export default function FactForm({ onSubmitSuccess }: FactFormProps) {
-  const { data: session } = useSession(); // セッション情報を取得
-  const [text, setText] = useState(""); // 投稿するテキスト
-  const [selectedTags, setSelectedTags] = useState<string[]>([]); // 選択したタグ
+export default function FactForm({ userId, onSubmitSuccess }: FactFormProps) {
+  const [text, setText] = useState("");
+  const [selectedTags, setSelectedTags] = useState<string[]>([]);
 
-  const userId = session?.user?.id; // ユーザーID
-
-  // タグをトグルする関数
   const toggleTag = (tag: string) => {
     setSelectedTags((prev) =>
       prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]
     );
   };
 
-  // フォームの送信処理
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    // ログインしていない場合はエラーを出力
     if (!userId) {
-      console.error("❌ ログインしていません");
+      console.error("❌ ユーザーIDがありません");
       return;
     }
 
@@ -42,17 +36,15 @@ export default function FactForm({ onSubmitSuccess }: FactFormProps) {
     });
 
     if (res.ok) {
-      // 投稿成功したらフォームをリセットし、親コンポーネントに通知
-      setText(""); // テキスト入力欄をリセット
-      setSelectedTags([]); // タグ選択をリセット
+      setText("");
+      setSelectedTags([]);
       console.log("✅ 投稿成功");
-      onSubmitSuccess(); // 親コンポーネントに通知
+      onSubmitSuccess();
     } else {
       console.error("❌ 投稿失敗");
     }
   };
 
-  // ユーザーがログインしていない場合はメッセージを表示
   if (!userId) {
     return <p>ログインしてください</p>;
   }
