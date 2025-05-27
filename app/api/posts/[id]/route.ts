@@ -2,14 +2,20 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
-import type { RouteHandlerContext } from 'next/dist/server/future/route-modules/app-route/module';
 
-export async function PATCH(req: NextRequest, context: RouteHandlerContext) {
+export async function PATCH(req: NextRequest) {
+  const url = new URL(req.url);
+  const id = url.pathname.split('/').pop();
+
+  if (!id) {
+    return NextResponse.json({ error: '投稿IDが見つかりません' }, { status: 400 });
+  }
+
   try {
     const { isPosted } = await req.json();
 
     const updatedPost = await prisma.post.update({
-      where: { id: context.params.id },
+      where: { id },
       data: { isPosted },
     });
 
