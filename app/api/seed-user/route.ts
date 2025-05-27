@@ -4,7 +4,7 @@ import { prisma } from "@/lib/prisma";
 
 export async function GET() {
   try {
-    const existing = await prisma.user.findUnique({
+    const existing = await prisma.user.findFirst({
       where: { name: "test-user" },
     });
 
