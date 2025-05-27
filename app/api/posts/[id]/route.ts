@@ -2,13 +2,14 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
+import type { RouteHandlerContext } from 'next/dist/server/future/route-modules/app-route/module';
 
-export async function PATCH(req: NextRequest, { params }: { params: { id: string } }) {
+export async function PATCH(req: NextRequest, context: RouteHandlerContext) {
   try {
     const { isPosted } = await req.json();
 
     const updatedPost = await prisma.post.update({
-      where: { id: params.id },
+      where: { id: context.params.id },
       data: { isPosted },
     });
 
