@@ -1,9 +1,23 @@
+//app/api/facts/[id]/route.ts
+
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
+import type { NextApiRequest } from "next";
+import type { NextResponse as NextApiResponse } from "next/server";
+
+import type { NextRequest as RequestWithParams } from "next/server";
+import type { NextResponse as Response } from "next/server";
+import type { NextFetchEvent } from "next/server";
+import type { NextApiHandler } from "next";
+
+import type { NextApiRequest as Req, NextApiResponse as Res } from "next";
+import type { NextApiHandler as Handler } from "next";
+
+import type { RouteHandlerContext } from "next/dist/server/future/route-modules/app-route/module";
 
 export async function PATCH(
   req: NextRequest,
-  context: { params: { id: string } }
+  context: RouteHandlerContext
 ) {
   const factId = context.params.id;
 
@@ -29,7 +43,7 @@ export async function PATCH(
 
 export async function DELETE(
   req: NextRequest,
-  context: { params: { id: string } }
+  context: RouteHandlerContext
 ) {
   const factId = context.params.id;
 
