@@ -18,6 +18,8 @@ export async function GET() {
     const newUser = await prisma.user.create({
       data: {
         name: "test-user",
+        email: "test-user@example.com",
+        password: "test-password", // 本番では必ずハッシュ化してください
       },
     });
 
