@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useEffect, useState } from "react";
@@ -67,10 +68,16 @@ export default function FactsPage() {
     return <p>読み込み中...</p>;
   }
 
+  // ✅ userIdが存在しない場合は早期return（型エラー防止）
+  const userId = session?.user?.id;
+  if (!userId) {
+    return <p>ログインしてください</p>;
+  }
+
   return (
     <div className="max-w-2xl mx-auto py-10 px-4">
       <h1 className="text-2xl font-bold mb-6">投稿ネタの登録</h1>
-      <FactForm userId={session?.user?.id} onSubmitSuccess={handleSubmitSuccess} />
+      <FactForm userId={userId} onSubmitSuccess={handleSubmitSuccess} />
       <hr className="my-8" />
       <h1 className="text-2xl font-bold mb-6">登録済みの投稿ネタ</h1>
       <div className="space-y-6 mt-8">
@@ -78,7 +85,7 @@ export default function FactsPage() {
           <GeneratePostPanel
             key={fact.id}
             fact={fact}
-            userId={session.user.id}
+            userId={userId}
             onFactUpdated={handleFactUpdated}
             onFactDeleted={handleFactDeleted}
           />
