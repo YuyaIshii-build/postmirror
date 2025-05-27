@@ -2,23 +2,15 @@
 
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
-import type { NextApiRequest } from "next";
-import type { NextResponse as NextApiResponse } from "next/server";
 
-import type { NextRequest as RequestWithParams } from "next/server";
-import type { NextResponse as Response } from "next/server";
-import type { NextFetchEvent } from "next/server";
-import type { NextApiHandler } from "next";
+// 自前の型定義（Next.js 15 に合わせた対応）
+type Context = {
+  params: {
+    id: string;
+  };
+};
 
-import type { NextApiRequest as Req, NextApiResponse as Res } from "next";
-import type { NextApiHandler as Handler } from "next";
-
-import type { RouteHandlerContext } from "next/dist/server/future/route-modules/app-route/module";
-
-export async function PATCH(
-  req: NextRequest,
-  context: RouteHandlerContext
-) {
+export async function PATCH(req: NextRequest, context: Context) {
   const factId = context.params.id;
 
   try {
@@ -41,10 +33,7 @@ export async function PATCH(
   }
 }
 
-export async function DELETE(
-  req: NextRequest,
-  context: RouteHandlerContext
-) {
+export async function DELETE(req: NextRequest, context: Context) {
   const factId = context.params.id;
 
   try {
