@@ -3,11 +3,14 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 
-export async function PATCH(
-  req: NextRequest,
-  { params }: { params: { id: string } }
-) {
-  const factId = params.id;
+// PATCHリクエスト（更新）
+export async function PATCH(req: NextRequest) {
+  const url = new URL(req.url);
+  const id = url.pathname.split("/").pop(); // URLからID抽出
+
+  if (!id) {
+    return NextResponse.json({ error: "Missing ID" }, { status: 400 });
+  }
 
   try {
     const body = await req.json();
@@ -18,7 +21,7 @@ export async function PATCH(
     }
 
     const updated = await prisma.fact.update({
-      where: { id: factId },
+      where: { id },
       data: { text, tags },
     });
 
@@ -29,15 +32,18 @@ export async function PATCH(
   }
 }
 
-export async function DELETE(
-  req: NextRequest,
-  { params }: { params: { id: string } }
-) {
-  const factId = params.id;
+// DELETEリクエスト（削除）
+export async function DELETE(req: NextRequest) {
+  const url = new URL(req.url);
+  const id = url.pathname.split("/").pop(); // URLからID抽出
+
+  if (!id) {
+    return NextResponse.json({ error: "Missing ID" }, { status: 400 });
+  }
 
   try {
     await prisma.fact.delete({
-      where: { id: factId },
+      where: { id },
     });
 
     return NextResponse.json({ message: "削除成功" }, { status: 200 });
