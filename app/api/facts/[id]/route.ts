@@ -3,15 +3,11 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 
-// 自前の型定義（Next.js 15 に合わせた対応）
-type Context = {
-  params: {
-    id: string;
-  };
-};
-
-export async function PATCH(req: NextRequest, context: Context) {
-  const factId = context.params.id;
+export async function PATCH(
+  req: NextRequest,
+  { params }: { params: { id: string } }
+) {
+  const factId = params.id;
 
   try {
     const body = await req.json();
@@ -33,8 +29,11 @@ export async function PATCH(req: NextRequest, context: Context) {
   }
 }
 
-export async function DELETE(req: NextRequest, context: Context) {
-  const factId = context.params.id;
+export async function DELETE(
+  req: NextRequest,
+  { params }: { params: { id: string } }
+) {
+  const factId = params.id;
 
   try {
     await prisma.fact.delete({
