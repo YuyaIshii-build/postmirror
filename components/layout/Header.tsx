@@ -17,7 +17,7 @@ export default function Header() {
           <div className="flex items-center gap-4">
             <span className="text-sm text-gray-700">ようこそ、{session.user?.name}さん</span>
             <button
-              onClick={() => signOut({ callbackUrl: `${window.location.origin}/login` })}
+              onClick={() => signOut({ callbackUrl: '/login' })}
               className="flex items-center gap-2 text-sm text-gray-700 hover:text-black"
             >
               <LogOut className="w-5 h-5" />
