@@ -1,0 +1,583 @@
+[
+  {
+    "id": "cmamlglvc0000p88olie9uzsr",
+    "email": "yuriya.ishikawa@gmail.com",
+    "name": "test",
+    "password": "$2b$10$Vw9W6TnWsNWYJ0/9gL/h2OmpHGjOvEnkG.ZfEJrD0VwugqaR4rIGK",
+    "createdAt": "2025-05-13T14:15:36.121Z",
+    "settings": {
+      "id": "cmanposr70005pfxuf9q9c4gt",
+      "userId": "cmamlglvc0000p88olie9uzsr",
+      "activityType": "副業フリーランス",
+      "activityDetail": "動画編集",
+      "goal": "フォロワーを増やしたい",
+      "targetAudience": "一般の人",
+      "preferredTone": "カジュアル"
+    },
+    "facts": [
+      {
+        "id": "cmamqhhd90001p8dbu24dit99",
+        "userId": "cmamlglvc0000p88olie9uzsr",
+        "text": "テスト",
+        "tags": "活動ログ",
+        "createdAt": "2025-05-13T16:36:15.022Z",
+        "posts": []
+      },
+      {
+        "id": "cmamqq1jr0003p8db3e8eltuv",
+        "userId": "cmamlglvc0000p88olie9uzsr",
+        "text": "テスト１",
+        "tags": "進捗",
+        "createdAt": "2025-05-13T16:42:54.423Z",
+        "posts": []
+      },
+      {
+        "id": "cmamrblyj0005p8dbw0u0lgfa",
+        "userId": "cmamlglvc0000p88olie9uzsr",
+        "text": "テスト４",
+        "tags": "思ったこと",
+        "createdAt": "2025-05-13T16:59:40.652Z",
+        "posts": []
+      },
+      {
+        "id": "cmamy5hs50001pm5wc8j6eoke",
+        "userId": "cmamlglvc0000p88olie9uzsr",
+        "text": "テスト",
+        "tags": "活動ログ",
+        "createdAt": "2025-05-13T20:10:52.614Z",
+        "posts": []
+      },
+      {
+        "id": "cmanos0ku0001pf73jsg1m764",
+        "userId": "cmamlglvc0000p88olie9uzsr",
+        "text": "テストあ",
+        "tags": "活動ログ",
+        "createdAt": "2025-05-14T08:36:13.423Z",
+        "posts": []
+      },
+      {
+        "id": "cmanosgcq0003pf73bogzce3n",
+        "userId": "cmamlglvc0000p88olie9uzsr",
+        "text": "テスト１",
+        "tags": "思ったこと",
+        "createdAt": "2025-05-14T08:36:33.866Z",
+        "posts": []
+      },
+      {
+        "id": "cmanp2rvv0003pfxuhyw6lulv",
+        "userId": "cmamlglvc0000p88olie9uzsr",
+        "text": "１２",
+        "tags": "進捗",
+        "createdAt": "2025-05-14T08:44:35.371Z",
+        "posts": [
+          {
+            "id": "cmanrcrdm0007pfxukir0imph",
+            "userId": "cmamlglvc0000p88olie9uzsr",
+            "factId": "cmanp2rvv0003pfxuhyw6lulv",
+            "content": "「動画編集の副業を始めてから気づいたこと😲✨最初はツールに圧倒されてばかりだったけど、続けるうちに自分のペースが見えてきた！経験を積むことで効率もアップ📈💡皆さんも新しい挑戦で得られる成長を楽しんでみては？#副業 #動画編集」",
+            "version": 1,
+            "edited": false,
+            "isPosted": false,
+            "createdAt": "2025-05-14T09:48:20.507Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cmamyyjqt0004pm5wx5mtw8ds",
+    "email": "yuya.ishii.build@gmail.com",
+    "name": "Yuya Ishii",
+    "password": "$2b$10$FKMvo7bWod2DeIN88FksyezZh2mHCMNyfOaTpB15IEyoFQIeoQ6e6",
+    "createdAt": "2025-05-13T20:33:28.182Z",
+    "settings": {
+      "id": "cmanrt4ad000bpfxuhdpbokns",
+      "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+      "activityType": "フリーランス事業者",
+      "activityDetail": "マイクロSaaSのファウンダーとして二つのサービスを構想中。一つは中小物流企業向けのレポート作成ツール。二つ目はフリーランス向けSNS運用支援ツール。アイデア構想からUX、開発、運用、ビジネス戦略まで網羅的に実施。海外MBAやデザインスクール、国内外のスタートアップで学んだことを個人で実践。",
+      "goal": "フォロワーを増やしたい",
+      "targetAudience": "ITサービスを個人で開発している人やスタートアップIT企業のPMなど、ITプロダクトの開発に携わる人。",
+      "preferredTone": "カジュアル"
+    },
+    "facts": [
+      {
+        "id": "cmamyzqyg0006pm5wobkyewck",
+        "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+        "text": "生成AIを活用すれば素人でもデジタルサービスを作ることは可能になってきたけど、トラブルが起きた時に技術的な勘所だったりトラブルシューティングのアプローチの経験がないとやっぱ難しいと思う。そう簡単にはいかないよ。",
+        "tags": "思ったこと",
+        "createdAt": "2025-05-13T20:34:24.185Z",
+        "posts": [
+          {
+            "id": "cmao4ntky0005rx8vvjmfrd4p",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmamyzqyg0006pm5wobkyewck",
+            "content": "マイクロSaaSのファウンダーとして副業でチャレンジ中。生成AIのおかげでデジタルサービスを作れるようになったけど、トラブルが起きたらやっぱり難しい。技術的な勘所やトラブルシューティングのアプローチが必要ってことだね。やっぱり簡単じゃないよ。",
+            "version": 1,
+            "edited": false,
+            "isPosted": true,
+            "createdAt": "2025-05-14T16:00:51.587Z"
+          },
+          {
+            "id": "cmaptytmx0001mlbbm4il4a4c",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmamyzqyg0006pm5wobkyewck",
+            "content": "生成AIを使えば初心者でもデジタルサービスを作れるが、トラブルシューティングの経験が重要だ。技術的な勘所がなければ難しい場面も多く、夢の実現には技術と経験が不可欠である。技術の進化に伴い、個人の成長も求められる時代だと実感する。",
+            "version": 1,
+            "edited": false,
+            "isPosted": true,
+            "createdAt": "2025-05-15T20:37:01.450Z"
+          },
+          {
+            "id": "cmapugkp70003mlbbdo5lqcqs",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmamyzqyg0006pm5wobkyewck",
+            "content": "生成AIの進化により、初心者でもデジタルサービスを立ち上げられる時代が到来しました。しかし、技術的なトラブルシューティングには経験が必要で、簡単ではありません。それでも挑戦する価値はあり、知識を深めながら成功を目指して努力しましょう。これにより成長し、新たな可能性が開かれます。",
+            "version": 1,
+            "edited": false,
+            "isPosted": false,
+            "createdAt": "2025-05-15T20:50:49.676Z"
+          }
+        ]
+      },
+      {
+        "id": "cmanrk4m50009pfxucfze1mms",
+        "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+        "text": "簡単に実装や修正できそうだと思っていても、意外とハマって時間がかかったりするもん。こういう時に技術的経験の蓄積が大切なんだろうなって思う。こういう点はエンジニアバックグラウンドの人は強いだろうな。まだまだ勉強せねば。",
+        "tags": "思ったこと",
+        "createdAt": "2025-05-14T09:54:04.254Z",
+        "posts": [
+          {
+            "id": "cmanrvflm000dpfxu5gxeiqnm",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmanrk4m50009pfxucfze1mms",
+            "content": "「簡単にできる」と思ってたことが、実は時間がかかることってありませんか？😅技術的な経験がここで活きるんですよね。エンジニア背景の方々が羨ましい！私も日々挑戦、まだまだ勉強中です。エンジニアの皆さん、一緒に成長していきましょう！💪✨",
+            "version": 1,
+            "edited": false,
+            "isPosted": false,
+            "createdAt": "2025-05-14T10:02:51.707Z"
+          },
+          {
+            "id": "cmapuhoa40005mlbbzjb7kn9k",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmanrk4m50009pfxucfze1mms",
+            "content": "簡単にできると思ったら、実は大変なことってあるよね。技術的な経験が少ないと特に時間がかかる。エンジニア出身の人が羨ましい！もっと勉強しなきゃって思うけど、日々の努力と経験を積み重ねればいつかはできるようになると信じて頑張ろうと思う。学ぶことは楽しいし、成長を感じる瞬間は最高。",
+            "version": 1,
+            "edited": false,
+            "isPosted": true,
+            "createdAt": "2025-05-15T20:51:40.972Z"
+          }
+        ]
+      },
+      {
+        "id": "cmao2j4pi0001rx8vodsi00ws",
+        "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+        "text": "開発作業が思うように進むこともあるし、進まない時もある。思うように進まなかった時にモヤモヤするんじゃなくて、よくやったと自分で自分を認めらるようになると長続きしやすくなる。自分のプロジェクトだとモチベーションマネジメントはまじ大事。",
+        "tags": "思ったこと",
+        "createdAt": "2025-05-14T15:01:13.494Z",
+        "posts": [
+          {
+            "id": "cmao4a29j0003rx8vx9768oqd",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmao2j4pi0001rx8vodsi00ws",
+            "content": "開発作業って、思うように進む時もあれば、進まない時もありますよね💻でもモヤモヤするより、自分を褒めてみると長続きしやすくなるんです🌟自分のプロジェクトだからこそ、モチベーション管理が超大事！自分にパチパチ拍手👏してみてくださいね！頑張ってるあなたに拍手🎉👏",
+            "version": 1,
+            "edited": false,
+            "isPosted": true,
+            "createdAt": "2025-05-14T15:50:09.656Z"
+          }
+        ]
+      },
+      {
+        "id": "cmapw2mp90001pb8pzkjzq32c",
+        "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+        "text": "AIのアウトプットの精度を上げるための機能を追加しようとしたらハマってしまってすごく時間がかかってしまった。現代の生成AIを使う以上100%の精度は無理。だけど、60%を80%までは上げた感覚。今はこの程度でいいや。じゃないと先に進めない。",
+        "tags": "活動ログ",
+        "createdAt": "2025-05-15T21:35:58.317Z",
+        "posts": [
+          {
+            "id": "cmapw6e3b0003pb8pnvxkn128",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmapw2mp90001pb8pzkjzq32c",
+            "content": "生成AIの限界に挑戦中！精度を上げようと機能追加に奮闘した結果、思った以上に時間がかかってしまった。100%の達成は無理でも、60%を80%に引き上げられた感覚がある。これで満足して次に進まないと、いつまでも終わらないというジレンマも抱えつつ、次のステップに進む決意を固めた。",
+            "version": 1,
+            "edited": false,
+            "isPosted": true,
+            "createdAt": "2025-05-15T21:38:53.783Z"
+          },
+          {
+            "id": "cmasnxrze0007q753jy0fy0hp",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmapw2mp90001pb8pzkjzq32c",
+            "content": "生成AIの精度を100%にするのはやっぱり難しいけど、60%を80%に引き上げたときの達成感は格別だった。時間はかかったけど、これで十分だと思える瞬間も大事だよね。次に進む勇気を持つことも重要だし、完璧を求めすぎずにバランスを取ることが成功への鍵だと感じたよ。",
+            "version": 1,
+            "edited": false,
+            "isPosted": false,
+            "createdAt": "2025-05-17T20:11:33.483Z"
+          }
+        ]
+      },
+      {
+        "id": "cmar8sokv0001qk5jajvhk9p0",
+        "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+        "text": "MVPは大体できたけど、これからテストユーザーを見つけて使ってもらって検証するフェーズのハードルが恐ろしく高い。ここからはプロダクトを作ることとは別の筋肉を使う必要がある。",
+        "tags": "活動ログ,思ったこと",
+        "createdAt": "2025-05-16T20:19:55.376Z",
+        "posts": [
+          {
+            "id": "cmar8x37l0003qk5jc18r3f67",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmar8sokv0001qk5jajvhk9p0",
+            "content": "新しい挑戦はいつもドキドキ。MVPが完成したら次はテストユーザーを見つけることが課題で、ここが真のスタートライン。プロダクト開発とは異なるスキルを磨くチャンス！ユーザーを獲得して声を聞き、改善を重ねていくそのプロセスこそがビジネスの醍醐味であり、成功への鍵。一歩ずつ進んでいこう。",
+            "version": 1,
+            "edited": false,
+            "isPosted": false,
+            "createdAt": "2025-05-16T20:23:20.960Z"
+          },
+          {
+            "id": "cmasnlyxp0001q7533n4f5n6y",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmar8sokv0001qk5jajvhk9p0",
+            "content": "MVPが完成しました！次のステップはテストユーザーの確保です。ここからが本当の挑戦の始まりですね。顧客の声をしっかり聞き、改善することで成功に繋がります。スモールビジネスやIT業界で同じ経験をした皆さんは、どのようにこの壁を乗り越えましたか？アドバイスをいただけると嬉しいです。",
+            "version": 1,
+            "edited": false,
+            "isPosted": false,
+            "createdAt": "2025-05-17T20:02:22.621Z"
+          }
+        ]
+      },
+      {
+        "id": "cmath11dr0001rn4w1oab7yvu",
+        "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+        "text": "ほんとにユーザー検証の方法がわからない。デザインスクールでユーザーインタビューの方法は学んだけど、そのインタビューするユーザーにどうアクセスするかなんて教わらなかった。これが学校と現実のギャップなんだろうな。",
+        "tags": "学び,思ったこと",
+        "createdAt": "2025-05-18T09:45:54.495Z",
+        "posts": [
+          {
+            "id": "cmath1xoc0003rn4w3qonregq",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmath11dr0001rn4w1oab7yvu",
+            "content": "デザインスクールでユーザーインタビューの技術を学んだものの、実際の現場でユーザーをどう見つけるかは未経験。学校では教えられない現実の壁に直面中。これが起業準備の醍醐味？ユーザー検証の道は険しいけれど、試行錯誤もまた楽しい。リアルな声を集めるって、思ったよりハードル高い！",
+            "version": 1,
+            "edited": false,
+            "isPosted": true,
+            "createdAt": "2025-05-18T09:46:36.348Z"
+          }
+        ]
+      },
+      {
+        "id": "cmatj827k0001t35x1j6hsim9",
+        "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+        "text": "ぼくはIT業界にしばらくいるけどコードを書けない側の人だった。でも、生成AIのおかげでコードが書けなくてもプロダクトを作ることができるようになった。これはほんと大きなチャンスだと思う。",
+        "tags": "思ったこと",
+        "createdAt": "2025-05-18T10:47:21.392Z",
+        "posts": [
+          {
+            "id": "cmatj9aos0003t35xeaaqr25z",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmatj827k0001t35x1j6hsim9",
+            "content": "生成AIのおかげで、コードを書くことなくプロダクト開発に挑戦できる時代が到来。IT業界では、プログラミングのスキルがなくても大きなチャンスが広がってる。スモールビジネスも今が変革のチャンス。AIを活用して新しいアイデアを生み出し、より効率的でクリエイティブな手法に挑戦しよう。",
+            "version": 1,
+            "edited": false,
+            "isPosted": false,
+            "createdAt": "2025-05-18T10:48:19.037Z"
+          }
+        ]
+      },
+      {
+        "id": "cmatjave20005t35x54xqkz3v",
+        "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+        "text": "プロダクトを作れたとして、それを使ってもらえるかはまた別問題。サービスをする以上ビジネスなので、その問題から逃れることはできない。",
+        "tags": "思ったこと",
+        "createdAt": "2025-05-18T10:49:32.523Z",
+        "posts": [
+          {
+            "id": "cmatjd1yu0007t35xibs3q7qm",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmatjave20005t35x54xqkz3v",
+            "content": "プロダクトを作るだけでは不十分！ビジネスとして成功するためには、ユーザーに使ってもらえるかを常に考える必要がありますね。サービス提供はお金を生む行為なわけで、ビジネスの本質から逃れられませんから。スモールビジネスでも、この視点を持つことが成功への鍵。",
+            "version": 1,
+            "edited": false,
+            "isPosted": false,
+            "createdAt": "2025-05-18T10:51:14.358Z"
+          }
+        ]
+      },
+      {
+        "id": "cmavkc79f0001k45lxfi2nsgi",
+        "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+        "text": "今取り組んでるB2BプロダクトのMVPをデモ用にGithubからRailwayにあげたらCICDでビルドエラーがたくさん出てめちゃくちゃ時間かかった。",
+        "tags": "活動ログ",
+        "createdAt": "2025-05-19T20:54:06.532Z",
+        "posts": [
+          {
+            "id": "cmavkeawl0003k45l30s9ibw7",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmavkc79f0001k45lxfi2nsgi",
+            "content": "GitHubからRailwayへのMVPデプロイでCI/CDエラーが頻発し、ビルドエラーが時間泥棒になっています。スモールビジネスのオーナーやITプロたちは、こうした課題にどう対応しているのでしょうか？自動化の落とし穴についての皆さんの体験談をぜひお聞かせください！",
+            "version": 1,
+            "edited": false,
+            "isPosted": false,
+            "createdAt": "2025-05-19T20:55:44.566Z"
+          },
+          {
+            "id": "cmavkh7t10005k45ls1arreou",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmavkc79f0001k45lxfi2nsgi",
+            "content": "RailwayにB2BプロダクトのMVPをデプロイする際、CICDで予期せぬビルドエラーが頻発。解決には時間がかかりましたが、デプロイ環境の違いがもたらす課題を痛感。問題解決力が試される瞬間です。スムーズなデプロイを目指すには環境設定の確認が鍵ですね。",
+            "version": 1,
+            "edited": false,
+            "isPosted": true,
+            "createdAt": "2025-05-19T20:58:00.518Z"
+          }
+        ]
+      },
+      {
+        "id": "cmawfxmyx0001o65kt1a2ocd2",
+        "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+        "text": "技術的トラブルは理解しておいた方がいいけど、そこを突き詰めたら時間がいくらあっても足りない。スピードが大切な検証フェーズではとにかく動いたら先に進む。",
+        "tags": "思ったこと",
+        "createdAt": "2025-05-20T11:38:34.761Z",
+        "posts": [
+          {
+            "id": "cmawg5c480003o65k0vj8vxrb",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmawfxmyx0001o65kt1a2ocd2",
+            "content": "技術的トラブルは避けられませんが、細部にこだわりすぎるとプロジェクトが進まなくなります。スピードが重視される検証フェーズでは、まず動くプロトタイプを作成し、結果を出すことが重要です。得られたフィードバックを基に改善を重ね、より良い成果を目指しましょう。",
+            "version": 1,
+            "edited": false,
+            "isPosted": true,
+            "createdAt": "2025-05-20T11:44:33.945Z"
+          }
+        ]
+      },
+      {
+        "id": "cmawuo7vd0001s35m0l6tle1b",
+        "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+        "text": "ようやくMVPのフロントもバックもRailwayにあげることができた。つまらないエラーで結構時間がかかったけど、そういうもん。",
+        "tags": "活動ログ",
+        "createdAt": "2025-05-20T18:31:09.529Z",
+        "posts": [
+          {
+            "id": "cmawupzbo0003s35mivp0tdg4",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmawuo7vd0001s35m0l6tle1b",
+            "content": "RailwayにMVPのフロントとバックエンドをデプロイ完了しました！些細なエラーに手間取ったけど、これも経験ですね。プロダクト開発してる皆さん、挑戦の連続ですよね？日々の努力が実を結ぶことを信じて、皆さんのプロジェクトが順調に進みますように！一緒に頑張りましょう！",
+            "version": 1,
+            "edited": false,
+            "isPosted": true,
+            "createdAt": "2025-05-20T18:32:31.765Z"
+          }
+        ]
+      },
+      {
+        "id": "cmaz2lt5z0001rq4xot1ruurv",
+        "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+        "text": "社長に紹介してもらうポテンシャルユーザーへのヒアリングを作成中。学びを得るのが最重要課題だけど、仮説が外れても何かしらのアイデアを得られるように何重にもヒアリング設計してる。難しい。",
+        "tags": "活動ログ",
+        "createdAt": "2025-05-22T07:48:46.439Z",
+        "posts": [
+          {
+            "id": "cmaz2nvun0003rq4xp4es89p1",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmaz2lt5z0001rq4xot1ruurv",
+            "content": "新しいアイデアを引き出すため、ユーザーヒアリングを何重にも工夫しています。仮説が外れても新たな発見があるので、失敗も大切な一歩です。前職の社長のコネも活用し、価値ある意見を集めています。スモールビジネスの皆さん、どんな工夫をしていますか？皆さんの取り組みも知りたいです。",
+            "version": 1,
+            "edited": false,
+            "isPosted": true,
+            "createdAt": "2025-05-22T07:50:23.231Z"
+          }
+        ]
+      },
+      {
+        "id": "cmaz2ovix0005rq4xhmjntes8",
+        "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+        "text": "ユーザーヒアリングは前職の社長のコネに頼る。信頼関係が築けていてよかった。ほんと助かる。",
+        "tags": "活動ログ",
+        "createdAt": "2025-05-22T07:51:09.466Z",
+        "posts": [
+          {
+            "id": "cmaz2q4e10007rq4xtxfwwnsn",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmaz2ovix0005rq4xhmjntes8",
+            "content": "ユーザーヒアリングの重要性を再確認しました。前職の社長のコネを活用でき、信頼関係があったからこそプロジェクトが前進しそう。価値ある人脈は本当に宝ですね。経験を積む中で、助け合える関係の大切さを実感しました。良好な関係が新たな道を開くことを痛感しています。信頼がマジ大切。",
+            "version": 1,
+            "edited": false,
+            "isPosted": true,
+            "createdAt": "2025-05-22T07:52:07.609Z"
+          }
+        ]
+      },
+      {
+        "id": "cmaz3dlnc0009rq4xau4dmcza",
+        "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+        "text": "学生時代の友人と話をして、AIの恩恵を受ける人とそうじゃない人のギャップが大きいことを知った。僕はガンガン活用したい。",
+        "tags": "思ったこと",
+        "createdAt": "2025-05-22T08:10:23.064Z",
+        "posts": [
+          {
+            "id": "cmaz3qn4w000brq4x6xkileeg",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmaz3dlnc0009rq4xau4dmcza",
+            "content": "学生時代の友人と話して感じたのは、AIの活用がビジネスの成功を左右すること。ぼくはこの波に乗って、AIを積極的に活用し新しい価値を創出したいと考えてます。実際、アイデアの深化やコード作成など、いろんな場面で活用してます。皆さんのビジネスでもAI活用に力を入れてますか？",
+            "version": 1,
+            "edited": false,
+            "isPosted": true,
+            "createdAt": "2025-05-22T08:20:31.520Z"
+          }
+        ]
+      },
+      {
+        "id": "cmaz3ufxu000drq4xmr7zrc81",
+        "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+        "text": "技術力は大切かもしれないけど、それより大切なのは行動力やマーケ力だな、マジで。いいもの作っても使ってもらえないと意味なし。",
+        "tags": "思ったこと",
+        "createdAt": "2025-05-22T08:23:28.818Z",
+        "posts": [
+          {
+            "id": "cmaz3wstz000frq4xgysoe40m",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmaz3ufxu000drq4xmr7zrc81",
+            "content": "すごいプロダクトを作っても、誰も使ってくれなければそれは自己満足で終わるよね。やっぱり行動力が成功の鍵なんだ。何よりも大事なのは、アイデアを形にして市場で試すことだと思う。技術を磨くのも重要だけど、まず一歩踏み出して結果を見て学ぶことが大切だよね。そのハードルが高いわけだけど。",
+            "version": 1,
+            "edited": false,
+            "isPosted": true,
+            "createdAt": "2025-05-22T08:25:18.840Z"
+          }
+        ]
+      },
+      {
+        "id": "cmb3s1lzv00016d896chba3y3",
+        "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+        "text": "自分のプロダクトを使ってみて、ユーザーペインの理解が深まることってありますよね。いい学びができてる気がする！",
+        "tags": "学び",
+        "createdAt": "2025-05-25T14:51:58.726Z",
+        "posts": [
+          {
+            "id": "cmb3s25m800036d89yjdvnjms",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmb3s1lzv00016d896chba3y3",
+            "content": "自分のプロダクトを実際に使ってみると、ユーザーの視点で新たな気づきが得られることがありますよね。特にユーザーペインがクリアになる瞬間は、次のステップに非常に役立ちます。日々の小さな発見が製品改善のカギになる、そんな実感がわいてきます！このプロセスは本当に重要ですよね。",
+            "version": 1,
+            "edited": false,
+            "isPosted": false,
+            "createdAt": "2025-05-25T14:52:24.144Z"
+          }
+        ]
+      },
+      {
+        "id": "cmb58f9xd00016d8pon0mu9iu",
+        "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+        "text": "ユーザーインタビューを設計中。得たい学びからインタビューを逆算するといい質問が作れる。",
+        "tags": "学び",
+        "createdAt": "2025-05-26T15:18:16.309Z",
+        "posts": [
+          {
+            "id": "cmb5gtmoq00036d8pfaf69y64",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmb58f9xd00016d8pon0mu9iu",
+            "content": "ユーザーインタビューを設計する際、まず得たい学びを明確にし、それを基に質問を作成することが肝心です。良い質問が、プロダクトやサービスの成功への鍵となります。スモールビジネスを成長させるために、ユーザーの声をしっかりとキャッチし、彼らの意見を活かす準備を整えましょう！",
+            "version": 1,
+            "edited": false,
+            "isPosted": false,
+            "createdAt": "2025-05-26T19:13:22.957Z"
+          },
+          {
+            "id": "cmb5ikb0k000b6d8p5uavo5is",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmb58f9xd00016d8pon0mu9iu",
+            "content": "ユーザーインタビューを逆算で設計中。ユーザーから学びたいことを起点に質問を組むと、深い洞察が得られるものです。この手法をみなさんのプロダクトにもぜひ試してみてください。意外な発見があるかもしれません。新たな視点を得られることは、プロダクトの成長に大いに寄与するはずです。",
+            "version": 1,
+            "edited": false,
+            "isPosted": false,
+            "createdAt": "2025-05-26T20:02:07.171Z"
+          }
+        ]
+      },
+      {
+        "id": "cmb5io7q6000d6d8ptihjfzca",
+        "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+        "text": "B2Bだとユーザーインタビューの機会が貴重。だからこそインタビューの準備にかなり力を入れる。学びが得られないのが最大の失敗。それを避けたい。",
+        "tags": "思ったこと",
+        "createdAt": "2025-05-26T20:05:09.525Z",
+        "posts": [
+          {
+            "id": "cmb5irdlv000f6d8p2a56i51x",
+            "userId": "cmamyyjqt0004pm5wx5mtw8ds",
+            "factId": "cmb5io7q6000d6d8ptihjfzca",
+            "content": "B2Bのユーザーインタビューは貴重な機会。そして宝の山。準備を怠らず、得られる学びを最大化することがマジ重要。なんの学びも得られないのが最大の失敗です。価値ある洞察を見つけ、ビジネスを進化させるヒントを得ましょう。成功の鍵は周到な準備と貴重なインサイトを逃さないことです。",
+            "version": 1,
+            "edited": false,
+            "isPosted": false,
+            "createdAt": "2025-05-26T20:07:37.121Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cmathv65u0005rn4wjndilnyl",
+    "email": "yuriya11271987@gmail.com",
+    "name": "test",
+    "password": "$2b$10$uNxnD.lKVB6P6y.OAc8VtueJOZCTzO478bBaFt/BKp3ZqftXG5Klq",
+    "createdAt": "2025-05-18T10:09:20.370Z",
+    "settings": {
+      "id": "cmathwj670007rn4wafdupvj4",
+      "userId": "cmathv65u0005rn4wjndilnyl",
+      "activityType": "SNSインフルエンサー",
+      "activityDetail": "イタリア在住日本人のイタリア生活や感じたことを発信",
+      "goal": "認知を獲得したい",
+      "targetAudience": "海外旅行、海外生活に興味のある人",
+      "preferredTone": "カジュアル"
+    },
+    "facts": [
+      {
+        "id": "cmathya1n0009rn4wuzkcmqa7",
+        "userId": "cmathv65u0005rn4wjndilnyl",
+        "text": "イタリアだと市販のパスタ自体が日本とは違う。小麦が違うからかな。",
+        "tags": "思ったこと",
+        "createdAt": "2025-05-18T10:11:45.371Z",
+        "posts": [
+          {
+            "id": "cmathytw4000brn4ww93yeuhw",
+            "userId": "cmathv65u0005rn4wjndilnyl",
+            "factId": "cmathya1n0009rn4wuzkcmqa7",
+            "content": "イタリアでパスタを食べると、日本との違いに驚きます。市販のパスタでもその食感や風味が特別で、小麦の質が影響しているのでしょう。イタリアの豊かな味わいを日本のパスタ好きにも体験してほしいです。素材の良さと伝統が織りなす絶品の一皿です。",
+            "version": 1,
+            "edited": false,
+            "isPosted": false,
+            "createdAt": "2025-05-18T10:12:11.092Z"
+          },
+          {
+            "id": "cmati0hrp000drn4wga74ipxx",
+            "userId": "cmathv65u0005rn4wjndilnyl",
+            "factId": "cmathya1n0009rn4wuzkcmqa7",
+            "content": "イタリアでパスタを食べると、日本との違いに驚きます。市販のパスタでもその食感や風味が特別で、小麦の質が影響しているのでしょう。イタリアの豊かな味わいを日本のパスタ好きにも体験してほしいです。素材の良さと伝統が織りなす絶品のパスタ。日本で市販されてるBarillaなどはおすすめ。",
+            "version": 1,
+            "edited": false,
+            "isPosted": true,
+            "createdAt": "2025-05-18T10:13:28.693Z"
+          }
+        ]
+      },
+      {
+        "id": "cmau5tsdy0001t45kp6oe6lag",
+        "userId": "cmathv65u0005rn4wjndilnyl",
+        "text": "気のせいか、イタリアは車が高いんだよなぁ。中古車でもまともな車は150万円くらいはする。100万円以下で買えるのは15年落ちとか。街中で30年前の車も平気で見るし、車事情は日本とだいぶ違う感じ。",
+        "tags": "思ったこと",
+        "createdAt": "2025-05-18T21:20:06.646Z",
+        "posts": [
+          {
+            "id": "cmau5x28y0003t45kz5ncbrfy",
+            "userId": "cmathv65u0005rn4wjndilnyl",
+            "factId": "cmau5tsdy0001t45kp6oe6lag",
+            "content": "イタリアの車事情には驚きがいっぱい！中古車でもまともなのは150万円以上。100万円以下だと15年落ちとか古いのが多く、街中には30年前の古い車も普通に走ってる。これは日本とは異なる文化を感じさせ、イタリアでの生活は奥深さを感じる。物を大切にしているのか、お金がないのか🤫",
+            "version": 1,
+            "edited": false,
+            "isPosted": true,
+            "createdAt": "2025-05-18T21:22:39.394Z"
+          }
+        ]
+      }
+    ]
+  }
+]
