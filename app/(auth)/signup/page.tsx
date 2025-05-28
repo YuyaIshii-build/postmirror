@@ -63,6 +63,9 @@ export default function SignUpPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
       <div className="bg-white p-6 rounded shadow-md w-full max-w-sm space-y-4">
+        {/* 🔹 テキストロゴ */}
+        <div className="text-3xl font-bold text-center text-black">PostMirror</div>
+
         <h1 className="text-xl font-bold text-center">新規登録</h1>
 
         <input
