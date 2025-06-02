@@ -6,7 +6,7 @@ export function validatePostContent(generatedText: string | undefined, finalGene
   // generatedTextが渡された場合の評価
   if (generatedText) {
     const length = generatedText.length;
-    if (length < 120 || length > 140) {
+    if (length < 100 || length > 140) {
       errors.push(`文字数が不正です。現在の文字数: ${length}`);
       suggestions.push(`この投稿内容の文字数は${length}です。文字数が必ず全角120~140文字になるよう文章量を調整してください`); 
     }
@@ -21,7 +21,7 @@ export function validatePostContent(generatedText: string | undefined, finalGene
   // finalGeneratedTextが渡された場合の評価
   if (finalGeneratedText) {
     const length = finalGeneratedText.length;
-    if (length < 120 || length > 140) {
+    if (length < 100 || length > 140) {
       errors.push(`文字数が不正です。現在の文字数: ${length}`);
         suggestions.push(`この投稿内容の文字数は${length}です。文字数が必ず全角120~140文字になるよう文章量を調整してください`); 
     }
